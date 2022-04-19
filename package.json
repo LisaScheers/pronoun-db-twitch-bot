@@ -1,0 +1,37 @@
+{
+  "name": "pronoun-db-twitch-bot",
+  "version": "0.0.1",
+  "description": "Twitch PronounDB.org bot",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LisaScheers/pronoun-db-twitch-bot.git"
+  },
+  "keywords": [
+    "Twitch",
+    "PronounDB",
+    "Pronoun",
+    "bot"
+  ],
+  "author": "Lisa Scheers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LisaScheers/pronoun-db-twitch-bot/issues"
+  },
+  "homepage": "https://github.com/LisaScheers/pronoun-db-twitch-bot#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "redis": "^4.0.6",
+    "twitch": "^4.6.7",
+    "twitch-auth": "^4.6.7",
+    "twitch-chat-client": "^4.6.7"
+  },
+  "type": "module"
+}
